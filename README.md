@@ -3,8 +3,11 @@ Firmware for microcontrollers (e.g. Arduino Mega2560) to interface peripherals (
 
 # Install Instructions
 clone repo
+
 initialize submodules: git submodule update --init
+
 to make life easier in the future run: git config --global alias.update '!git pull && git submodule update --init --recursive'
+
 now all that is needed it to run: git update
 
 # Info
