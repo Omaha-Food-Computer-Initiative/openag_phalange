@@ -21,6 +21,12 @@ now all that is needed to initialize / update entire repo is to run: git update
 * git commit
 * git push
 
+# Platformio Commands
+compile: pio run
+
+compile & upload: pio run -t upload
+
+serial monitor: pio serialports monitor
 
 # Links
 https://gist.github.com/gitaarik/8735255
