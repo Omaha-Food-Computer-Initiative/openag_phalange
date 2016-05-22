@@ -12,14 +12,14 @@ now all that is needed to initialize / update entire repo is to run: git update
 
 
 # Update Submodule To Later Commit
-git submodule init
-git submodule update
-cd <submodule dir>
-git checkout master
-git pull
-cd <mainmodule dir>
-git commit
-git push
+* git submodule init
+* git submodule update
+* cd <submodule dir>
+* git checkout master
+* git pull
+* cd <mainmodule dir>
+* git commit
+* git push
 
 
 # Links
