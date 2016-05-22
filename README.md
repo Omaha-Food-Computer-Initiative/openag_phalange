@@ -12,3 +12,6 @@ now all that is needed to initialize / update entire repo is to run: git update
 
 # Info
 for more info on submodules goto https://gist.github.com/gitaarik/8735255
+
+# Other Useful Commands
+git submodule foreach git pull origin master
