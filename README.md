@@ -8,7 +8,7 @@ initialize submodules: git submodule update --init
 
 to make life easier in the future run: git config --global alias.update '!git pull && git submodule update --init --recursive'
 
-now all that is needed it to run: git update
+now all that is needed to initialize / update entire repo is to run: git update
 
 # Info
 for more info on submodules goto https://gist.github.com/gitaarik/8735255
