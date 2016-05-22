@@ -10,13 +10,19 @@ to make life easier in the future run: git config --global alias.update '!git pu
 
 now all that is needed to initialize / update entire repo is to run: git update
 
-# Info
-for more info on submodules goto: 
 
+# Update Submodule To Later Commit
+git submodule init
+git submodule update
+cd <submodule dir>
+git checkout master
+git pull
+cd <mainmodule dir>
+git commit
+git push
+
+
+# Links
 https://gist.github.com/gitaarik/8735255
 
 https://chrisjean.com/git-submodules-adding-using-removing-and-updating
-
-
-# Other Useful Commands
-git submodule foreach git pull origin master
