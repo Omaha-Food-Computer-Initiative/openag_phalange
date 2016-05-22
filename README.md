@@ -24,11 +24,13 @@ now all that is needed to initialize / update entire repo is to run: git update
 # Platformio Commands
 *compile:* pio run
 
-**compile & upload:** pio run -t upload
+*compile & upload:* pio run -t upload
 
-serial monitor: pio serialports monitor
+*serial monitor:* pio serialports monitor
 
 # Links
 https://gist.github.com/gitaarik/8735255
 
 https://chrisjean.com/git-submodules-adding-using-removing-and-updating
+
+http://platformio.org/
