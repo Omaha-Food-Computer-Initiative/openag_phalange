@@ -1,0 +1,9 @@
+[submodule "lib/openag_cban"]
+	path = lib/openag_cban
+	url = https://github.com/OpenAgInitiative/openag_cban.git
+[submodule "lib/openag_peripheral"]
+	path = lib/openag_peripheral
+	url = https://github.com/OpenAgInitiative/openag_peripheral.git
+[submodule "lib/openag_am2315"]
+	path = lib/openag_am2315
+	url = https://github.com/OpenAgInitiative/openag_am2315.git
