@@ -1,6 +1,13 @@
 # openag_phalange
 Firmware for microcontrollers (e.g. Arduino Mega2560) to interface peripherals (sensors &amp; actuators) with a single board computer (e.g. Raspberry Pi 3).
 
+# Compatibility 
+This code should be able to be relatively hardware agnostic but has only been tested on Arduino Mega 2560 as of May 22, 2016. 
+The idea is that this repo can be cloned / downloaded and be able to run on the ArduinoIDE AND platformio. ArduinoIDE users will need to add the submodules found in this repo's /lib to ~/Documents/Arduino/library.
+
+The example code in the submodules (i.e. openag_am2315) should function properly in both the ArduinoIDE (File-\>Examples-\>\<submodule name\>-\>example-\>example.ino)
+
+
 # Install Instructions
 1. *Clone repo:* git clone \<repo name\> 
 2. *Configure git update:* git config --global alias.update '!git pull && git submodule update --init --recursive'
