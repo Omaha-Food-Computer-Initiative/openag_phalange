@@ -16,16 +16,14 @@ The example code in the submodules (i.e. openag_am2315) should function properly
 5. *Connect arduino to rpi w/USB cable*
 6. *Compile and upload:* pio run -t upload
 
+# Update Submodule
+1. cd \<submodule dir\>
+2. git checkout master
+3. git pull
 
-# Update Submodule To Later Commit
-1. git submodule init
-2. git submodule update
-3. cd \<submodule dir\>
-4. git checkout master
-5. git pull
-6. cd \<mainmodule dir\>
-7. git commit
-8. git push
+# Remove Submodule
+1. git rm the_submodule
+2. rm -rf .git/modules/the_submodule
 
 # Platformio Commands
 * *compile:* pio run
