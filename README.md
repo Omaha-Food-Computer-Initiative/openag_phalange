@@ -24,19 +24,18 @@ The example code in the submodules (i.e. openag_am2315) should function properly
 5. git commit
 
 # Remove Submodule
-1. git submodule deinit asubmodule    
-2. git rm asubmodule # Note: asubmodule (no trailing slash)
-3. git rm --cached asubmodule
-4. rm -rf .git/modules/asubmodule
+1. git submodule deinit \<submodule\>    
+2. git rm \<submodule\> # Note: \<submodule\> (no trailing slash)
+4. rm -rf .git/modules/\<submodule\>
 
 # Submodule Push
-1. cd your_submodule
+1. cd \<submodule\>
 2. git checkout master
 3. \<hack,edit\>
 4. git commit -a -m "commit in submodule"
 5. git push
 6. cd ..
-7. git add your_submodule
+7. git add \<submodule\>
 8. git commit -m "Updated submodule"
 
 # Platformio Commands
