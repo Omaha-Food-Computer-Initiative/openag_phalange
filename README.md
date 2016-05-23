@@ -5,17 +5,20 @@ Firmware for microcontrollers (e.g. Arduino Mega2560) to interface peripherals (
 1. *Clone repo:* git clone \<repo name\> 
 2. *Configure git update:* git config --global alias.update '!git pull && git submodule update --init --recursive'
 3. *Update repo:* git update
+4. *Install platformio:* pip2 install -U platformio
+5. *Connect arduino to rpi w/USB cable*
+6. *Compile and upload:* pio run -t upload
 
 
 # Update Submodule To Later Commit
-* git submodule init
-* git submodule update
-* cd \<submodule dir\>
-* git checkout master
-* git pull
-* cd \<mainmodule dir\>
-* git commit
-* git push
+1. git submodule init
+2. git submodule update
+3. cd \<submodule dir\>
+4. git checkout master
+5. git pull
+6. cd \<mainmodule dir\>
+7. git commit
+8. git push
 
 # Platformio Commands
 *compile:* pio run
