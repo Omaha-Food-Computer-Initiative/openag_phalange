@@ -5,7 +5,7 @@ Firmware for microcontrollers (e.g. Arduino Mega2560) to interface peripherals (
 This code should be able to be relatively hardware agnostic but has only been tested on Arduino Mega 2560 as of May 22, 2016. 
 The idea is that this repo can be cloned / downloaded and be able to run on the ArduinoIDE AND platformio. ArduinoIDE users will need to add the submodules found in this repo's /lib to ~/Documents/Arduino/library.
 
-The example code in the submodules (i.e. openag_am2315) should function properly in both the ArduinoIDE (File/Examples/\<submodule name\>/example) and in platformio (lib/\<submodule\>/example). 
+The example code in the submodules (i.e. openag_am2315) should function properly in both the ArduinoIDE (File/Examples/\<submodule name\>/example) and in platformio (openag_phalange/lib/\<submodule\>/example). 
 
 
 # Install Instructions
