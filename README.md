@@ -21,15 +21,11 @@ Firmware for microcontrollers (e.g. Arduino Mega2560) to interface peripherals (
 8. git push
 
 # Platformio Commands
-*compile:* pio run
-
-*compile & upload:* pio run -t upload
-
-*serial monitor:* pio serialports monitor
+* *compile:* pio run
+* *compile & upload:* pio run -t upload
+* *serial monitor:* pio serialports monitor
 
 # Links
-https://gist.github.com/gitaarik/8735255
-
-https://chrisjean.com/git-submodules-adding-using-removing-and-updating
-
-http://platformio.org/
+* https://gist.github.com/gitaarik/8735255
+* https://chrisjean.com/git-submodules-adding-using-removing-and-updating
+* http://platformio.org/
