@@ -34,3 +34,4 @@ The example code in the submodules (i.e. openag_am2315) should function properly
 * https://gist.github.com/gitaarik/8735255
 * https://chrisjean.com/git-submodules-adding-using-removing-and-updating
 * http://platformio.org/
+* http://stackoverflow.com/questions/29850029/what-is-the-current-way-to-remove-a-git-submodule
