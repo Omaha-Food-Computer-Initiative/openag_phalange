@@ -7,3 +7,6 @@
 [submodule "lib/openag_am2315"]
 	path = lib/openag_am2315
 	url = https://github.com/OpenAgInitiative/openag_am2315.git
+[submodule "lib/openag_ds18b20"]
+	path = lib/openag_ds18b20
+	url = https://github.com/OpenAgInitiative/openag_ds18b20.git
