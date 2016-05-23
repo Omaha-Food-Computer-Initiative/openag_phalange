@@ -39,6 +39,7 @@ The example code in the submodules (i.e. openag_am2315) should function properly
 8. git commit -m "Updated submodule"
 
 # Platformio Commands
+* *initialize:* pio init --board megaatmega2560
 * *compile:* pio run
 * *compile & upload:* pio run -t upload
 * *serial monitor:* pio serialports monitor
