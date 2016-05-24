@@ -19,3 +19,6 @@
 [submodule "lib/openag_atlas_ec"]
 	path = lib/openag_atlas_ec
 	url = https://github.com/OpenAgInitiative/openag_atlas_ec.git
+[submodule "lib/openag_atlas_rgb"]
+	path = lib/openag_atlas_rgb
+	url = https://github.com/OpenAgInitiative/openag_atlas_rgb.git
