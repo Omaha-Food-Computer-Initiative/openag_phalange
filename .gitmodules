@@ -22,3 +22,6 @@
 [submodule "lib/openag_atlas_rgb"]
 	path = lib/openag_atlas_rgb
 	url = https://github.com/OpenAgInitiative/openag_atlas_rgb.git
+[submodule "lib/openag_gc0012"]
+	path = lib/openag_gc0012
+	url = https://github.com/OpenAgInitiative/openag_gc0012.git
